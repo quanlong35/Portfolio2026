@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="theme-color" content="#efeee9"/>
+        <title>QUANLONG — Content Designer Portfolio</title>
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+        <div class="cursor-orb" id="cursorOrb" aria-hidden="true">VIEW</div>
+        <div class="progress" id="progress"></div>
+        <header class="site-header">
+            <a class="wordmark" href="#/">QuanLong</a>
+            <div class="header-center">Korean &amp; Chinese Content Designer.</div>
+            <div class="header-end">
+                <div class="audio-player">
+                    <audio id="bgMusic" src="assets/audio/liqwyd-explore.mp3" preload="auto" autoplay loop></audio>
+                    <button class="audio-toggle" id="audioToggle" type="button" aria-label="Pause background music" aria-pressed="true">
+                        <span class="audio-equalizer" aria-hidden="true"><i></i><i></i><i></i></span>
+                        <span class="audio-title">EXPLORE</span>
+                        <span class="audio-action" id="audioAction">PAUSE</span>
+                    </button>
+                </div>
+                <button class="menu-btn" id="menuBtn" aria-label="Open navigation" aria-expanded="false">
+                    <span>MENU</span>
+                    <b>
+                        <i></i>
+                        <i></i>
+                    </b>
+                </button>
+            </div>
+        </header>
+        <nav class="nav-overlay" id="navOverlay" aria-hidden="true">
+            <div class="nav-list">
+                <a href="#/" data-nav><small>( _01 )</small>Home<span>↗</span></a>
+                <a href="#/works" data-nav><small>( _02 )</small>Works<span>↗</span></a>
+                <a href="#/about" data-nav><small>( _03 )</small>About<span>↗</span></a>
+                <a href="#/contact" data-nav><small>( _04 )</small>Contact<span>↗</span></a>
+            </div>
+            <div class="nav-foot"><a href="mailto:quanlong35@naver.com">quanlong35@naver.com</a><span><a href="https://www.youtube.com/@quanlong35" target="_blank" rel="noopener noreferrer">YT ↗</a> &nbsp;/&nbsp; <a href="https://www.instagram.com/quanlong35/" target="_blank" rel="noopener noreferrer">IG ↗</a></span></div>
+        </nav>
+        <main id="app"></main>
+        <footer class="footer">
+            <div class="footer-top">
+                <div>
+                    <span class="eyebrow">( LET'S WORK TOGETHER )</span>
+                    <h2>Let's create<br><em>something</em> meaningful.</h2>
+                    <a class="pill" href="mailto:quanlong35@naver.com">CONTACT ME <span>↗</span></a>
+                </div>
+                <div class="footer-side">
+                    <p>한국과 중국의 문화적 이해를 바탕으로 국내외 브랜드 콘텐츠를 기획하고 디자인합니다.</p>
+                    <div class="footer-contact">
+                        <a href="tel:01049358835">01049358835 ↗</a>
+                        <a href="mailto:quanlong35@naver.com">quanlong35@naver.com ↗</a>
+                    </div>
+                    <div class="footer-socials">
+                        <h3>Follow my work</h3>
+                        <a href="https://www.youtube.com/@quanlong35" target="_blank" rel="noopener noreferrer">YOUTUBE ↗</a>
+                        <a href="https://www.instagram.com/quanlong35/" target="_blank" rel="noopener noreferrer">INSTAGRAM ↗</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© 2026 QUANLONG — PORTFOLIO<br><a class="music-credit" href="https://www.liqwydmusic.com" target="_blank" rel="noopener noreferrer">MUSIC “EXPLORE” BY LiQWYD — CC BY 3.0 ↗</a></span>
+                <div>
+                    <a href="#/works">Projects</a>
+                    <a href="#/about">About</a>
+                    <a href="#/contact">Contact</a>
+                </div>
+                <a href="#/">BACK TO TOP ↑</a>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+
+    </body>
+
+</html>;
